@@ -1,0 +1,68 @@
+/* Normalización de estilos para una apariencia consistente en todos los navegadores */
+
+/* Box sizing border-box por defecto */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Corrección de estilos en tipografía */
+  html, body {
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  /* Estilos base para el cuerpo del documento */
+  body {
+    font-family: sans-serif, Arial, Helvetica;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Quitar estilos predeterminados de listas */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Enlaces sin estilos predeterminados */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Imágenes responsivas */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Botones y formularios sin estilos predeterminados */
+  button, input, textarea, select {
+    font: inherit;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  /* Corrección de tabla */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Ajustes generales en encabezados */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
+  
